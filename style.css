@@ -1,0 +1,49 @@
+.upperbox{
+    background-color:rgb(196, 157, 116);
+    width:100%;
+}
+body {
+    font-family: monospace;
+    background-color:#B2A68D;
+}
+img {
+    width: 150px;
+    border-radius:50%;
+}
+h1 {
+    color: darkmagenta;
+}
+
+ul {
+    color: palevioletred;
+}
+.lowerbox{
+    margin: auto;
+    overflow: hidden;
+}
+
+#leftlower{
+    float: left;
+    width: 450px;
+    padding-left: 30px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border: burlywood solid 2px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #FEFFE3;
+}
+#rightlower{
+    float: right;
+    width: 600px;
+    background-color: beige;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+
+}

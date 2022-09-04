@@ -5,37 +5,42 @@
   <meta charset="utf-8">
   <title>Leroy's Site</title>
 </head>
-<style>
-  body {
-    font-family: monospace;
-  }
-  img {
-    width: 150px;
-    border-radius:50%;
-  }
-  h1 {
-    color: darkmagenta;
-  }
-  /* table {
-    border:3px solid darkviolet;
-  } */
-  ul {
-    color: palevioletred;
-  }
-</style>
+<link rel="stylesheet" href="style.css">
+
 <body>
-  <table>
-    <tr><td rowspan="2"><img src="pic1.jpg" alt="Profile Picture"></td><td><h1>Leroy Tham Jun Han</h1></td></tr>
-    <tr><td><em>Year 2 student at <strong>Singapore Management University studying Information Systems</strong></em></td></tr>
-  </table>
+  
+  <div class="upperbox">
+    <table>
+      <tr><td rowspan="2">
+        <img src="pic1.jpg" alt="Profile Picture">
+      </td>
+      <td>
+        <h1>Leroy Tham Jun Han</h1>
+      </td></tr>
+      <tr><td>
+        <em>Year 2 student at <strong>Singapore Management University studying Information Systems</strong></em>
+      </td></tr>
+    </table>
+  </div>
+
   <hr/>
-  <br/>
-  <h2>Hobbies</h2>
-  <ul>
-    <li>Playing computer games</li>
-    <li>Netflix</li>
-    <li>Reading</li>
-  </ul>
-  I have also been hitting the gym more frequently recently to keep fit.
+
+  <div class="lowerbox">
+    <section id="leftlower">
+      <h2>Hobbies</h2>
+    <ul>
+      <li>Playing computer games</li>
+      <li>Netflix</li>
+      <li>Reading</li>
+    </ul>
+    <p>I have also been hitting the gym more frequently recently to keep fit.</p>
+  </section>
+  <aside id="rightlower">
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/pzozw4oAX2Q?autoplay=1&mute=1">
+    </iframe>
+  </aside>
+  </div>
+  
 </body>
 </html>
