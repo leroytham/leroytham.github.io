@@ -1,0 +1,74 @@
+.upperbox{
+    background-color:rgb(196, 157, 116);
+    width:100%;
+    height:650px;
+    position: relative;
+}
+#profilepic{
+    position:absolute;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+}
+#intro{
+    position:absolute;
+    margin-top:400px;
+    text-align: center;
+    align-items: center;
+
+}
+#intro em{
+    font-size: 25px;
+}
+body {
+    font-family: monospace;
+    /* background-color:#B2A68D; */
+}
+.upperbox img {
+    width: 200px;
+    border: black solid;
+}
+h1 {
+    color: darkmagenta;
+}
+
+ul {
+    color: palevioletred;
+}
+.lowerbox{
+    margin: auto;
+    overflow: hidden;
+    height:auto;
+    top:30px;
+    position: relative;
+}
+.lowerbox img{
+    width: 350px;
+    height: 580px;
+}
+#dramadiv{
+    margin-top: 20px;
+}
+
+#gamediv{
+    margin-top: 20px;
+}
+.card{
+    margin-bottom: 20px;
+    height:750px;
+}
+#vid{
+    width: 600px;
+    padding-bottom: 50px;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-left: auto;
+
+}
+#vlog{
+    width:auto;
+    background-color: beige;
+    margin-top: 20px;
+}
+
